@@ -25,7 +25,7 @@ jobs:
 
     - name: Run Django collectstatic and distill
       env:
-        DJANGO_SETTINGS_MODULE: myproject.settings
+        DJANGO_SETTINGS_MODULE: personal_portfolio.settings
       run: |
         python manage.py collectstatic --noinput
         python manage.py distill-local --collectstatic-output
