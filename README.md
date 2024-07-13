@@ -1,12 +1,18 @@
-# Get Started With Django: Build a Portfolio App
+# Deploying a Django app using GitHub Actions
+
+Full credit to [RealPython](https://realpython.com/get-started-with-django-1/) for this portfolio app (with minor adaptations) that we're using as a base for our lesson on GitHub Actions in CPSC 455.
+
+Below the original instructions and readme:
+
+## Get Started With Django: Build a Portfolio App
 
 Follow the [step-by-step instructions](https://realpython.com/get-started-with-django-1/) on Real Python to build your own portfolio project with Django.
 
-## Images
+### Images
 
 You can find the example images for the projects in the [uploads/project_images](uploads/project_images) folder.
 
-## Setup
+### Setup
 
 You can run the provided example project on your local machine by following the steps outlined below.
 
