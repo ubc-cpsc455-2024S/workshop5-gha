@@ -1,6 +1,9 @@
 from django.test import TestCase
 from ..models import Project
 
+# Source: ChatGPT 3.5 on July 12, 2024.
+# Prompt: "Help me write a test for this models.py file"
+
 class ProjectModelTest(TestCase):
     def setUp(self):
         self.project = Project.objects.create(
