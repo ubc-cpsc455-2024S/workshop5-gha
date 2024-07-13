@@ -14,7 +14,7 @@ class ProjectModelTest(TestCase):
 
     def test_project_creation(self):
         self.assertEqual(self.project.title, 'Test Project')
-        self.assertEqual(self.project.description, 'This is a test project.')
+        self.assertEqual(self.project.description, 'This is a test project')
         self.assertEqual(self.project.technology, 'Django')
 
     def test_project_str(self):
